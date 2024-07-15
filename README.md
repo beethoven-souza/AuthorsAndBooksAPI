@@ -26,9 +26,9 @@ Iniciar o Projeto.
 Editar a ConnectionStrings de acordo com a sua máquina.
 Executar o comando: dotnet ef database update (Comando do Entity Framework para persistir as entidades no banco de dados).
 
-==========================================================================================
-
+__________________________________________________________________________________________________________________________
 LOGIN:
+
 POST
 EndPoit -> https://localhost:7212/api/Auth/login
 Body:
@@ -36,8 +36,8 @@ Body:
   "username": "admin",
   "password": "password"
 }
-==========================================================================================
 
+__________________________________________________________________________________________________________________________
 Author
 
 TODOS OS AUTORES
@@ -92,8 +92,8 @@ EndPoint -> https://localhost:7212/api/Authors/{idAuthor}
 Body:
 
 
-==========================================================================================
-***Books:
+__________________________________________________________________________________________________________________________
+Books:
 
 TODOS OS LIVROS
 >Get: OK
