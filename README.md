@@ -10,6 +10,7 @@ A AuthorsAndBooksAPI é uma API RESTful para o cadastro e gerenciamento de autor
 <p>JWT - Autenticação e autorização dos usuários</p>
 <p>SQL Server</p>
 <p>Entity Framework</p>
+<p>Swagger UI</p>
 
 ## Organização do Projeto
 
@@ -26,6 +27,7 @@ Editar a ConnectionStrings de acordo com a sua máquina.
 Executar o comando: dotnet ef database update (Comando do Entity Framework para persistir as entidades no banco de dados).
 
 ==========================================================================================
+
 LOGIN:
 POST
 EndPoit -> https://localhost:7212/api/Auth/login
@@ -36,7 +38,7 @@ Body:
 }
 ==========================================================================================
 
-***Author
+Author
 
 TODOS OS AUTORES
 >GetAll: Ok
